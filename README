@@ -1,0 +1,6 @@
+These are scripts I used to add and delete OpenLDAP accounts. Not for anything beyond causal use. :)
+
+addldapuser.sh - adds the user after being prompted for the password
+delldapuser.sh - deletes user.
+config - the config file the automation scripts reads off from
+secret - the ldap password file
