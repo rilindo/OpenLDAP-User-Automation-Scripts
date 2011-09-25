@@ -1,0 +1,14 @@
+LDAPADDCMD="/usr/bin/ldapadd"
+LDAPDELCMD="/usr/bin/ldapdelete"
+SLAPPASSWORD="/usr/sbin/slappasswd"
+SECRET="/root/ldap/secret" # Put your password in this file. We recommend making it readable just by root.
+LDAPPASS=`cat $SECRET`
+HOMEDIR="/home/users"
+SKEL="/etc/skel"
+TMP="/root/ldap/tmp"
+UNIT="People"
+ORG="com"
+DOMAIN="YOURDOMAIN"
+GROUP="Group"
+MODDATE=`date "+%Y%m%d%H%M%S.%N"`
+ARCHIVE=".deleted"
