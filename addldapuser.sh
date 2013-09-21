@@ -2,7 +2,7 @@
 
 
 # Script to add a login to ldap. 
-# Not meant for anything beyound causal use
+# Not meant for anything beyound casual use
 # Author: Rilindo Foster
 # Contact:  rilindo.foster@monzell.com
 # Date: 09/11/2011
